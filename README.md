@@ -10,12 +10,11 @@
     <h3>Star:</h3><br  />
 Abstract class, I decided to make it so, because here a start should be a Footballer or Singer, that means can't be instanciate.<br  />
     <h4>attributs:</h4><br  />
-        <h5>protected :</h5> <id, fname, lname, birth, country, emailAdr, phone, salaire, isContract, category <br  />
+        <h5>protected :</h5> <p>id, fname, lname, birth, country, emailAdr, phone, salaire, isContract, category</p> <br  />
     <h4>methods:</h4><br  />
         <h5>public:</h5>
-            getters and setters, signNewContract(), displayInfo(), doCharity()<br  />
+            <p>getters and setters, signNewContract(), displayInfo(), doCharity()<p/><br  />
 <h3>Footballer extends Star:</h3><br  />
-
 <h3>Singer extends Star:</h3><br  />
 
 <p>* The method displayInfo is partially common, Footballer and Singer, call from parent and complete by themself by overloading <p>
